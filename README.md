@@ -1,27 +1,27 @@
-# LED-Blink-Arduino
-Basic LED Blink simulation using Arduino on Wokwi. This project demonstrates digital output control with digitalWrite() and delay().
-
 # LED Blink (Arduino Simulation)
 
-This is my first IoT project using Arduino on **Wokwi**.  
-It makes an LED blink ON and OFF with a 500ms delay.
+This is my first IoT project using **Arduino Uno** on **Wokwi**.  
+It makes an LED blink ON and OFF every 500 ms.
 
-## 🛠 Components
-- Arduino Uno (simulated)
-- 1x LED
-- 1x Resistor (220Ω)
+---
+
+##  Components
+- Arduino Uno (simulated)  
+- LED  
+- Resistor (220 Ω)  
 - Wokwi online simulator
 
-## 💻 Code
+---
+
+##  Code
 ```cpp
 void setup() {
-  pinMode(5, OUTPUT);  // Set pin 5 as output
+  pinMode(5, OUTPUT);
 }
 
 void loop() {
-  digitalWrite(5, HIGH); // Turn LED ON
-  delay(500);            // Wait 500 ms
-  digitalWrite(5, LOW);  // Turn LED OFF
-  delay(500);            // Wait 500 ms
+  digitalWrite(5, HIGH);
+  delay(500);
+  digitalWrite(5, LOW);
+  delay(500);
 }
-
