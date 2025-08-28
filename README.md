@@ -28,3 +28,10 @@ void loop() {
   digitalWrite(5, LOW);   // Turn LED OFF
   delay(500);             // Wait 500 ms
 }
+
+📚 What I Learned
+
+- Basics of Arduino programming
+- How to control digital outputs with digitalWrite()
+- Using delay() to create timing in code
+- How to simulate circuits using Wokwi
